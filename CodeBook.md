@@ -4,7 +4,7 @@ Average Mean and Standard Deviation Codebook
 ==================================================================
 
 --------------------------------------------------------------------------
--- Raw to Tidy Dataset Transformation
+Raw to Tidy Dataset Transformation
 --------------------------------------------------------------------------
 
 We are starting with the raw data found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -33,26 +33,26 @@ The run_analysis.R function will transform the raw dataset into a Tidy Dataset c
 17. Name the Activity and Subject dimensions as "SubjectID" and "Activity" 
 18. Create a final dataset that averages the means and standard deviations by activity and subjectID  
 #### Clean the variables to be more descriptive  ##########
-19. Clean each variable to be more descriptive as follows:
- * a. Units
+19. Clean each variable to be more descriptive as follows:  
+a. Units
   * a1. if the raw variable starts with "f" then this is a Frequency unit
-  * a2. if the raw variable starts with "t" then this is a Time unit
- * b. Sensor
+  * a2. if the raw variable starts with "t" then this is a Time unit  
+b. Sensor
   * b1. if the raw variable contains "Acc" then this is an Acceleromoter Sensor
-  * b2. if the raw variable contains "Gyro" then this is a Gyroscope Sensor
- * c. Measurement
+  * b2. if the raw variable contains "Gyro" then this is a Gyroscope Sensor  
+c. Measurement
   * c1. if the raw variable contains "mean" then this is the mean of the function
-  * c2. if the raw variable contains "std" then this is the standard deviation of the function
- * d. Motion Components - Pull the motion component from the raw variable name (ie Body or Gravity)
- * e. Jerk Signal - if the raw variable conains "Jerk" then "Jerk"
- * f. Magnitude - if the raw variable contains "Mag" then "Magnitude" 
- * g. Axis - Pull the axis component from the raw variable name (ie XAxis, YAxis or ZAxis)
+  * c2. if the raw variable contains "std" then this is the standard deviation of the function  
+d. Motion Components - Pull the motion component from the raw variable name (ie Body or Gravity)  
+e. Jerk Signal - if the raw variable conains "Jerk" then "Jerk"  
+f. Magnitude - if the raw variable contains "Mag" then "Magnitude"   
+g. Axis - Pull the axis component from the raw variable name (ie XAxis, YAxis or ZAxis)  
 20. Create a new variable name - Motion Component + Sensor + Jerk Signal + Magnitude + Measurement + Units + Axis  
 #### Write the final dataset out as a text file  ##########
 21. Write the final dataset out as a comma delimited text file called "humanActivityRecognition.txt"
 
 --------------------------------------------------------------------------
--- Tidy DataSet Layout
+Tidy DataSet Layout
 --------------------------------------------------------------------------
 
 activity - Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying
