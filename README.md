@@ -13,12 +13,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The zip file includes a README.txt which explains the experiment and the raw data collected.  Please read this first.
 
 ----------------------------------------------------------------------------
--- Average Mean and Standard Deviation Measurements by activity and subject
+Average Mean and Standard Deviation Measurements by activity and subject
 ----------------------------------------------------------------------------
 Using the raw data collected from the experiment, our goal was to create a tidy data set which includes the average of each mean and standard deviation measurement by activity and subject.
 
 --------------------------------------------------------------------------
--- Files included in this data set 
+Files included in this data set 
 --------------------------------------------------------------------------
 
 * README.md
@@ -27,7 +27,7 @@ Using the raw data collected from the experiment, our goal was to create a tidy 
 * humanActivityRecognition.txt - tidy dataset as described in CodeBook.md
 
 --------------------------------------------------------------------------
--- Instructions to generate the final tidy dataset called humanActivityRecognition.txt
+Instructions to generate the final tidy dataset called humanActivityRecognition.txt
 --------------------------------------------------------------------------
 
 1. Download the raw data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
